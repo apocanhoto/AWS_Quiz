@@ -1,0 +1,78 @@
+IAM	Simple Storage Service
+
+EC2	Elastic Compute Cloud 
+
+#EC2 Instance Types
+EC2/F	FPGA
+EC2/I	IOPS
+EC2/G	GRAPHICS
+EC2/H	HIGH DISK THROUGHTPUT
+EC2/T	CHEAP GENERAL PURPOSE
+EC2/D	DENSITY
+EC2/R	RAM
+EC2/M	MAIN CHOICE FOR GENERAL APPS
+EC2/C	COMPUTE
+EC2/P	GRAPHICS
+EC2/X	EXTREME MEMORY
+EC2/Z	EXTREME MEMORY AND CPU
+EC2/A	ARM BASED WORKLOADS
+EC2/U	BARE METAL
+
+
+EBS	Elastic Block Store
+General Purpose SSD - GP
+	balance between price and performance
+
+Provisioned IOPS SSD - IO
+	Databases that are accessed a lot, mission-critical
+	Highest performance
+
+Throughput HDD - ST
+	Low cost HDD designed for frequently accessed
+	for Big Data & Data Warehouses
+	
+Cold HDD - SC
+	Lowest cos HDD volume
+	designed for less frequently accessed workloads
+	for file servers
+
+EBS Magnetic
+	Previous generation HDD
+	Workloads where data is infrequently accessed
+	kind of like glacier
+AMI	Amazon Machine Image
+ENI	Elastic Network Interface (Virtual NIC)
+ENA	Enhances Networking (higher performance)
+EFA	Elastic Fabric Adapter (Higher performance for machine learning) LINUX ONLY and OS-Bypass(?)
+
+
+
+VPC	Virtual Private Cloud
+MFA	Multi Factor
+S3	Simple Storage Service
+S3/IA	Infrequently Accessed
+S3/Glacier	
+SSL	Secure Socket
+TLS	Tunneling
+NFS	The Network File System
+SMB	Server Messaging protocol
+RTMP	CloudFront Media Streaming
+OAI	CloudFront Origin Access Identity
+SSE-S3	
+SSE-KMS
+SSE-C
+
+NLP	Neural Lang Processing
+
+Storage Gateway	Connects your data centre to AWS.
+Storage Gateway/Athena	Interactive query service using SQL
+Storage Gateway/Macie	Security Service that uses Machine Learning and NLP
+
+
+
+
+
+
+
+
+
